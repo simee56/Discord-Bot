@@ -8,19 +8,20 @@ const client = new Client({
 });
 
 client.on("messageCreate", (message) => {
-    if(message.author.bot)
+    if (message.author.bot)
         return;
 
     message.reply({
-        content : "Hello form Bot",
+        content: "Hello form Bot",
     });
 
     console.log(message) // this will display the message
     // console.log(message.content); this will display the message as well as other informations such as user's info.
 
- 
+
 })
 
-client.login (
-    "MTMzOTU2NjkzNjMzNzU1MTM2MQ.GAniIh.eUmqPPc3nxMX8AtrKpkC25iK4g-I3vxYnyL5Jo"
+client.login(
+    //TOKEN
 )
+
