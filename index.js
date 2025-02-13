@@ -15,8 +15,8 @@ client.on("messageCreate", (message) => {
         content: "Hello form Bot",
     });
 
-    console.log(message) // this will display the message
-    // console.log(message.content); this will display the message as well as other informations such as user's info.
+    console.log(message)                    // this will display the message
+    // console.log(message.content);           this will display the message as well as other informations such as user's info.
 
 
 })
