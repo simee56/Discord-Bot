@@ -25,6 +25,6 @@ client.on("interactionCreate", (interaction) => {
 });
 
 client.login(
-    "MTMzOTU2NjkzNjMzNzU1MTM2MQ.GAniIh.eUmqPPc3nxMX8AtrKpkC25iK4g-I3vxYnyL5Jo"
+    "yout-token"
 )
 
