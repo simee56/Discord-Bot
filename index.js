@@ -17,11 +17,14 @@ client.on("messageCreate", (message) => {
 
     console.log(message)                    // this will display the message
     // console.log(message.content);           this will display the message as well as other informations such as user's info.
+});
 
-
-})
+client.on("interactionCreate", (interaction) => {
+    console.log(interaction);
+    interaction.reply("Pong!")
+});
 
 client.login(
-    //TOKEN
+    "MTMzOTU2NjkzNjMzNzU1MTM2MQ.GAniIh.eUmqPPc3nxMX8AtrKpkC25iK4g-I3vxYnyL5Jo"
 )
 

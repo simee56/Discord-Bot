@@ -1,3 +1,5 @@
+//this script helps us to register commands 
+
 import { REST, Routes } from 'discord.js';
 
 const commands = [
